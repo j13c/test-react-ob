@@ -67,17 +67,23 @@
   border-color: var(--first-color);
   background-color: var(--first-color);
 }
-.progressbar li.active:before ~ li:before {
-  content: "\2713";
-  background-color: var(--secondth-color);
-  font-size: "xxx-large";
-}
 
 .progressbar li.active ~ li:after {
   background-color: var(--fifth-color);
 }
 
+.progressbar li.check:before {
+  background-color: var(--secondth-color) !important;
+  content: '\2713';
+  font-size: xxx-large;
+  border-color: var(--secondth-color); 
+
+}
+
 /* 
-  content: url('./../../assets/svg/005-comprobado-1.svg');
-  color: var(--secondth-color);
- */
+  li:first-child::before {
+    background-color: var(--secondth-color) !important;
+    content: '\2713';
+    font-size: xxx-large;
+    border-color: var(--secondth-color); 
+*/

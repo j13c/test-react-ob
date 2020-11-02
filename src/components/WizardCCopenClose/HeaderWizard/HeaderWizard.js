@@ -4,7 +4,11 @@ import React, {Component } from "react";
 function HeaderWizard (props) {
   
   let array = ["","","",""];
-  array[ props.itemActive ] = "active";
+  if (props.itemActive > 1) {
+    array = (props.itemActive > 2)? ["","check","check","active"] : ["","check","active",""];
+  } else {
+    array[ props.itemActive ] = "active";
+  }
   /* constructor(props){
     super(props);
     let array = ["","","",""];
