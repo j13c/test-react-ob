@@ -1,5 +1,5 @@
-import React, {Component } from "react";
-/* assets */
+import React from "react";
+
 
 function HeaderWizard (props) {
   

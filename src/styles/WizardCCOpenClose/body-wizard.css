@@ -1,0 +1,10 @@
+.body-wizard-container{
+  padding: 1rem 4rem;
+  height: 70%;
+}
+.body-wizard-title hr{
+  width: 2rem;
+  text-align: right;
+  border:var(--fourth-color) solid 2px;
+  margin: -10px 0px 0px 0px;
+}

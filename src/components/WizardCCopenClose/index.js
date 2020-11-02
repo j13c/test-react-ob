@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 
 import HeaderWizard from "./HeaderWizard/HeaderWizard";
+import BodyWizard   from "./BodyWizard/BodyWizard";
+
 class WizardCCOpenClose extends Component {
 
   constructor(props) {
@@ -21,8 +23,8 @@ class WizardCCOpenClose extends Component {
   render() {
       return (
         <div>
-          <HeaderWizard itemActive={ this.state.step } ></HeaderWizard>
-          <section>body</section>
+          <HeaderWizard itemActive={ this.state.step }></HeaderWizard>
+          <BodyWizard step={ this.state.step }></BodyWizard>
           <footer>
             <button onClick={ this.nextStepHandler } >+</button>
           </footer>
