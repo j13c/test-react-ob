@@ -8,3 +8,12 @@
   border:var(--fourth-color) solid 2px;
   margin: -10px 0px 0px 0px;
 }
+.body-wizard-card-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+.card-container{
+  width: 20rem;
+  text-align: center;
+}
