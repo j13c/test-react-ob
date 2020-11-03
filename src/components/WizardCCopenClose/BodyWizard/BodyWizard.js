@@ -19,7 +19,7 @@ function BodyWizard (props){
       break;
     case 3:
       console.log('Feedback')
-      content = <Step3></Step3>
+      content = <Step3 feedback={true}></Step3>
       break;
     default:
       console.log('Default: PoductInformation');

@@ -1,5 +1,6 @@
 @import "./styles/WizardCCOpenClose/wizard-cc-open-close.css";
 @import "./styles/Forms/form.css";
+@import "./styles/Feedback/feedback.css";
 @import "./styles/colors.css";
 body {
   margin: 0;

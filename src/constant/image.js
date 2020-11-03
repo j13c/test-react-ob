@@ -4,10 +4,22 @@ import SafeBox from './../assets/img/group-3.svg';
 import BrainSavePass from './../assets/img/group.svg';
 import SeePassword from './../assets/svg/001-visibilidad.svg';
 import info from './../assets/svg/002-info.svg';
-
+import alertFeedBack from './../assets/svg/006-alerta.svg'
+import succesFeedBack from './../assets/svg/005-comprobado-1.svg'
 
 export const Images = {
-  
+  iconAlert: {
+    alt: 'Error',
+    height: 45,
+    width: 45,
+    src: alertFeedBack,
+  },
+  iconSucces: {
+    alt: 'success',
+    height: 45,
+    width: 45,
+    src: succesFeedBack,
+  },
   iconBrainSavePass: {
     alt: 'icon brain save pass',
     height: 120,

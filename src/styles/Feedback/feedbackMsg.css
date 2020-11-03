@@ -1,0 +1,28 @@
+.feedback-msg-container{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  justify-content: center;
+}
+
+.feedback-msg-container img{
+  margin: 1.2rem;
+}
+.feedback-content hr{
+  border: var(--third-color) 1px solid;
+}
+.feedback-content a{
+  color: var(--secondth-color);
+  font-weight: bold;
+  text-align: end;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.feedback-content a::after{
+  padding-left: 0.3rem;
+  content: '\203A';
+  color: var(--secondth-color);
+  font-size: larger;
+}
