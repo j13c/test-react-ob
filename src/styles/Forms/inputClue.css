@@ -1,0 +1,28 @@
+.item-container-input-clue{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.item-container-input-clue label{
+  font-weight: bold;
+}
+.item-container-input-clue input{
+  border: var(--fifth-color) solid 1px;
+  border-radius: 2px;
+  color: var(--fifth-color);
+  font-size: 1.01rem;
+  height: 3rem;
+  margin: 0.5rem 0rem;
+  outline: none;
+  padding-left: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.item-container-input-clue input::placeholder{
+  color: var(--fifth-color);
+  font-size: 1.01rem;
+}
+.item-container-input-clue span{
+  text-align: end;
+  color: var(--fifth-color);
+}

@@ -1,6 +1,5 @@
 .body-wizard-container{
-  padding: 1rem 4rem;
-  height: 70%;
+  padding: 0.5rem 6rem;
 }
 .body-wizard-title hr{
   width: 2rem;
@@ -18,5 +17,5 @@
   text-align: center;
 }
 .section-container{
-  width: 90%;
+  width: 95%;
 }

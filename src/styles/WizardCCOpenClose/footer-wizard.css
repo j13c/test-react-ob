@@ -1,0 +1,48 @@
+.footer-wizard-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footer-wizard-container hr{
+  border: #f5f5f5 solid 1px;
+  width: 99%;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1rem 6rem;
+  transition: all 0.8;
+}
+.button-container button:hover{
+  font-size: 1.09rem;
+}
+.btn-cancel{
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+}
+.btn-continue{
+  background-color: var(--first-color);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 3.5rem;
+  outline: none;
+  cursor: pointer;
+  width: 10rem;
+}
+.btn-continue::after{
+  padding-left: 0.3rem;
+  content: '\203A';
+  color: white;
+  font-size: larger;
+}
+

@@ -6,8 +6,7 @@
   font-size: 1.5rem;
   font-family: monospace;
   justify-content: center;
-  max-height: 15%;
-  /* padding: 1rem; */
+  padding: 0.5rem;
 }
 .header-wizard-container{
   display: flex;
