@@ -3,6 +3,7 @@ import OpenbankLogo from './../assets/img/logo_openbank.png';
 import SafeBox from './../assets/img/group-3.svg';
 import BrainSavePass from './../assets/img/group.svg';
 import SeePassword from './../assets/svg/001-visibilidad.svg';
+import OcultPassword from './../assets/svg/visibility.svg';
 import info from './../assets/svg/002-info.svg';
 import alertFeedBack from './../assets/svg/006-alerta.svg'
 import succesFeedBack from './../assets/svg/005-comprobado-1.svg'
@@ -43,6 +44,12 @@ export const Images = {
     height: 35,
     width: 35,
     src: SeePassword,
+  },
+  iconOcultPassInput: {
+    alt: 'Ocult password',
+    height: 35,
+    width: 35,
+    src: OcultPassword,
   },
   iconKeyOpenBak: {
     alt: 'Logo key open bank',

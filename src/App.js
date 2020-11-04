@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     
     console.log(window.location.pathname);
-    if (window.location.pathname === '/wizard') {
+    if (window.location.pathname === '/') {
       return(<WizardCCOpenClose />);
     }else{
       return(
